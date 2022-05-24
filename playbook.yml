@@ -1,0 +1,7 @@
+---
+- name: This is a demo playbook
+  hosts: all
+  become: true
+  tasks: 
+  - name: testing authentication
+    ping: 
